@@ -23,6 +23,13 @@ namespace AddressBook
             UC3UpdateExistingContact uc3 = new UC3UpdateExistingContact();
             uc3.UpdateContact();
 
+            Console.WriteLine("UC4 starting");
+            UC4DeleteContact uc4 = new UC4DeleteContact();
+            uc4.ContactDelete();
+
+            Console.ReadKey();
+
+
         }
     }
 }
